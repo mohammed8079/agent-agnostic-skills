@@ -1,0 +1,3 @@
+# Claude-only frontmatter overrides for this skill.
+allowed-tools: Read, WebSearch
+argument-hint: "[topic or draft] [--platform medium|linkedin|both]"

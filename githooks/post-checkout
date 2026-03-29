@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Sync skills only on branch switches (not file restores).
+[ "$3" = "1" ] || exit 0
+python3 "$(git rev-parse --show-toplevel)/scripts/sync_skills.py"
